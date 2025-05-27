@@ -2,6 +2,7 @@ package net.yadoomi.baby;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.yadoomi.baby.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -11,6 +12,6 @@ public class Baby implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
+        ModItems.registerModItems();
 	}
 }
