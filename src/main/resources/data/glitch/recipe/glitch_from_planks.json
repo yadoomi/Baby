@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "functional",
+  "ingredients": [
+    {
+      "item": "glitch:glitched_planks"
+    }
+
+  ],
+  "result": {
+    "count": 9,
+    "id": "glitch:glitch"
+  }
+}

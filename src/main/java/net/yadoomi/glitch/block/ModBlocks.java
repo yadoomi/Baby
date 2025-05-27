@@ -18,6 +18,18 @@ public class ModBlocks {
     public static final Block INFERNO_GLITCH_BLOCK = registerBlock("inferno_glitch_block",
             new Block(AbstractBlock.Settings.create().strength(3f)
                     .requiresTool().sounds(BlockSoundGroup.BONE)));
+    public static final Block GLITCHED_LEAVES = registerBlock("glitched_leaves",
+            new Block(AbstractBlock.Settings.create().strength(0.1f)
+                    .sounds(BlockSoundGroup.GRASS)));
+    public static final Block GLITCHED_PLANKS = registerBlock("glitched_planks",
+            new Block(AbstractBlock.Settings.create().strength(1f)
+                    .sounds(BlockSoundGroup.WOOD)));
+    public static final Block INFERNO_GLITCHED_LEAVES = registerBlock("inferno_glitched_leaves",
+            new Block(AbstractBlock.Settings.create().strength(0.1f)
+                    .sounds(BlockSoundGroup.NETHER_WART)));
+    public static final Block INFERNO_GLITCHED_PLANKS = registerBlock("inferno_glitched_planks",
+            new Block(AbstractBlock.Settings.create().strength(0.5f)
+                    .sounds(BlockSoundGroup.NETHERRACK)));
 
 
     private static Block registerBlock(String name, Block block) {

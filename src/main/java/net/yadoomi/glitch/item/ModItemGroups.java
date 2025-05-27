@@ -21,6 +21,10 @@ public class ModItemGroups {
                         entries.add(ModBlocks.GLITCH_BLOCK);
                         entries.add(ModItems.INFERNO_GLITCH);
                         entries.add(ModBlocks.INFERNO_GLITCH_BLOCK);
+                        entries.add(ModBlocks.GLITCHED_LEAVES);
+                        entries.add(ModBlocks.GLITCHED_PLANKS);
+                        entries.add(ModBlocks.INFERNO_GLITCHED_LEAVES);
+                        entries.add(ModBlocks.INFERNO_GLITCHED_PLANKS);
                     }).build());
 
     public static void registerItemGroups() {

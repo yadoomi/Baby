@@ -4,6 +4,10 @@
   "item.glitch.glitch": "Glitch",
   "item.glitch.inferno_glitch": "Inferno Glitch",
 
-  "block.glitch.glitch_block": "Inferno Glitch Block",
-  "block.glitch.inferno_glitch_block": "Inferno Glitch Block"
+  "block.glitch.glitch_block": "Glitch Block",
+  "block.glitch.inferno_glitch_block": "Inferno Glitch Block",
+  "block.glitch.glitched_leaves": "Glitched Leaves",
+  "block.glitch.glitched_planks": "Glitched Planks",
+  "block.glitch.inferno_glitched_leaves": "Inferno Glitched Leaves",
+  "block.glitch.inferno_glitched_planks": "Inferno Glitched Planks"
 }
