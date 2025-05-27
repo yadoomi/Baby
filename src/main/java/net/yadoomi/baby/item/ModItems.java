@@ -10,7 +10,7 @@ import net.yadoomi.baby.Baby;
 
 public class ModItems {
 
-    public static final Item TEST = registerItem("testlol", new Item(new Item.Settings()));
+    public static final Item TESTLOL = registerItem("testlol", new Item(new Item.Settings()));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(Baby.MOD_ID, name), item);
@@ -20,7 +20,7 @@ public class ModItems {
         Baby.LOGGER.info("Registering Mod Items for " + Baby.MOD_ID);
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.FUNCTIONAL).register(fabricItemGroupEntries -> {
-            fabricItemGroupEntries.add(TEST);
+            fabricItemGroupEntries.add(TESTLOL);
         });
     }
 
