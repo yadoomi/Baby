@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "baby",
+	"version": "${version}",
+	"name": "Baby",
+	"description": "A mod all about babies!",
+	"authors": [
+		"yadoomi_ (discord)"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/baby/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.yadoomi.baby.Baby"
+		],
+		"fabric-datagen": [
+			"net.yadoomi.baby.BabyDataGenerator"
+		],
+		"client": [
+			"net.yadoomi.baby.BabyClient"
+		]
+	},
+	"mixins": [
+		"baby.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
