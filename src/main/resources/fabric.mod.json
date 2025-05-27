@@ -1,32 +1,32 @@
 {
 	"schemaVersion": 1,
-	"id": "baby",
+	"id": "glitch",
 	"version": "${version}",
-	"name": "Baby",
-	"description": "A mod all about babies!",
+	"name": "Glitch",
+	"description": "Glitch",
 	"authors": [
-		"yadoomi_ (discord)"
+		"yadoomi"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/yadoomi/glitch"
 	},
 	"license": "MIT",
-	"icon": "assets/baby/icon.png",
+	"icon": "assets/glitch/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.yadoomi.baby.Baby"
+			"net.yadoomi.glitch.Glitch"
 		],
 		"fabric-datagen": [
-			"net.yadoomi.baby.BabyDataGenerator"
+			"net.yadoomi.glitch.GlitchDataGenerator"
 		],
 		"client": [
-			"net.yadoomi.baby.BabyClient"
+			"net.yadoomi.glitch.GlitchClient"
 		]
 	},
 	"mixins": [
-		"baby.mixins.json"
+		"glitch.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.16.14",

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "glitch:block/glitch_block"
+    }
+  }
+}

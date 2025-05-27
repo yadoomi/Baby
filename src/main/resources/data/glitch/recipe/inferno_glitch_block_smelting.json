@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 600,
+  "experience": 0.9,
+  "ingredient": {
+    "item": "glitch:glitch_block"
+  },
+  "result": {
+    "id": "glitch:inferno_glitch_block"
+  }
+}
